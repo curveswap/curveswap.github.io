@@ -1,0 +1,129 @@
+{
+  "key_facts": {
+    "Category": "Stablecoin and pegged-asset DEX",
+    "Network": "Ethereum and multiple EVM chains",
+    "Token": "CRV",
+    "Custody": "Non-custodial smart contracts",
+    "Official app": "www.curve.finance/dex"
+  },
+  "intent": [
+    {
+      "q": "CurveSwap fees and slippage",
+      "a": "CurveSwap search intent usually points to the Curve DEX swap screen, where fees and slippage depend on the selected pool, token pair, chain and current liquidity. Curve is known for efficient swaps between stable or similarly priced assets, but not every route is low slippage. Before confirming, review the pool or route selected by the app, expected output, price impact, allowed slippage and token approval. For large trades, quote the same amount across Curve and another aggregator because a deep Curve pool can be best for one pair while another route can be better for a different pair."
+    },
+    {
+      "q": "CurveSwap stablecoin swaps",
+      "a": "Curve's strongest search association is stablecoin and pegged-asset liquidity. Users often search CurveSwap when swapping assets such as USDC, USDT, DAI, crvUSD or liquid staking token pairs. The Curve Knowledge Hub describes the DEX as a place to swap and provide liquidity, while the developer repositories include stableswap implementations. Stablecoin swaps still carry pool-specific risk: check whether assets are native or bridged, whether the pool is balanced, and whether the quoted output reflects a depeg or liquidity imbalance."
+    },
+    {
+      "q": "Curve CRV token and veCRV",
+      "a": "CRV is the Curve DAO token, and searches around CurveSwap often include CRV, veCRV and gauges because liquidity incentives are central to Curve's ecosystem. Swapping on Curve does not require holding CRV, but governance, voting and boosted liquidity incentives involve CRV lockups and veCRV mechanics. If the goal is only to trade stablecoins, focus on pool depth and quoted output. If the goal is liquidity provision, research CRV emissions, gauge votes, deposit assets, withdrawal terms and smart-contract exposure before adding funds."
+    },
+    {
+      "q": "How to use CurveSwap on the official Curve DEX",
+      "a": "Open <a href=\"https://www.curve.finance/dex/\">the official Curve DEX</a>, connect a wallet, choose the chain, select the token you want to sell and the token you want to receive, then review the route and pool details. Curve may route through pools optimized for stable or pegged assets. Check the token contract, expected output, price impact, slippage setting and any approval request. Confirm only from the verified curve.finance domain. After the swap, verify the transaction in your wallet or the relevant chain explorer."
+    },
+    {
+      "q": "CurveSwap vs Uniswap for stablecoins",
+      "a": "CurveSwap and Uniswap can both execute stablecoin trades, but they are optimized differently. Curve pools are designed around efficient swaps for stable or similarly priced assets, while Uniswap's concentrated liquidity model can be excellent when active liquidity is deep near the current price. The better venue changes by token pair, amount and chain. Compare net received amount, price impact, pool composition, gas cost and route trust assumptions. For very small trades, gas may dominate; for larger stablecoin trades, pool depth and balance usually matter more."
+    }
+  ],
+  "compare": {
+    "title": "CurveSwap vs Uniswap for stablecoins",
+    "rows": [
+      [
+        "Dimension",
+        "CurveSwap",
+        "Uniswap"
+      ],
+      [
+        "Core strength",
+        "Stable and pegged-asset pools",
+        "Broad token liquidity across many pairs"
+      ],
+      [
+        "Token focus",
+        "Stablecoins, LSTs and similar-value assets",
+        "Stablecoins, volatile pairs and long-tail tokens"
+      ],
+      [
+        "What to compare",
+        "Pool balance, price impact and output",
+        "Active liquidity, route and output"
+      ],
+      [
+        "Governance token",
+        "CRV",
+        "UNI"
+      ]
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is CurveSwap?",
+      "a": "CurveSwap is a common search name for swapping through the Curve DEX. Curve is a decentralized exchange best known for stablecoin and pegged-asset liquidity. Users connect a wallet, choose a chain and token pair, review the route, then sign the swap from their wallet on the official Curve interface."
+    },
+    {
+      "q": "Is CurveSwap only for stablecoins?",
+      "a": "No. Curve is best known for stable and similarly priced assets, but the ecosystem also includes pools for crypto assets, liquid staking tokens and crvUSD-related markets. The correct question is not whether a token is a stablecoin, but whether the selected Curve pool has deep, balanced liquidity and acceptable price impact."
+    },
+    {
+      "q": "What is the official CurveSwap URL?",
+      "a": "The official Curve DEX is hosted at www.curve.finance/dex/. Users should verify the domain before connecting a wallet because search ads and copied interfaces can imitate popular DeFi apps. Bookmarking the official domain and avoiding direct-message links reduces the chance of signing on a malicious clone."
+    },
+    {
+      "q": "Do I need CRV to swap on Curve?",
+      "a": "No. You do not need CRV just to make a token swap on Curve. CRV is relevant for governance, veCRV locking and liquidity incentives. For a simple swap, the practical requirements are a supported wallet, the input token, enough native gas token and a quote you are willing to accept."
+    },
+    {
+      "q": "Why is Curve good for USDC and USDT swaps?",
+      "a": "Curve is often strong for USDC, USDT and similar stablecoin routes because its pool designs target efficient trading between assets expected to hold similar values. That can reduce price impact when liquidity is deep and balanced. It does not guarantee a best price, so compare the live Curve quote against other routes for the exact amount."
+    },
+    {
+      "q": "Can CurveSwap have high slippage?",
+      "a": "Yes. Any DEX swap can have high slippage if the trade is large relative to available liquidity, the pool is imbalanced, the token is depegged or the chain route is thin. Curve is optimized for certain pool types, but users should still inspect price impact and minimum received before confirming a transaction."
+    }
+  ],
+  "niche": {
+    "type": "swap",
+    "asset": "USDC",
+    "receive": "USDT",
+    "supported_networks": [
+      "Ethereum",
+      "Arbitrum",
+      "Optimism",
+      "Polygon",
+      "Base",
+      "Avalanche",
+      "Fantom"
+    ]
+  },
+  "authority": [
+    {
+      "text": "Curve Knowledge Hub",
+      "url": "https://docs.curve.finance/"
+    },
+    {
+      "text": "Curve DEX",
+      "url": "https://www.curve.finance/dex/"
+    },
+    {
+      "text": "Curve GitHub",
+      "url": "https://github.com/curvefi"
+    },
+    {
+      "text": "CRV on CoinGecko",
+      "url": "https://www.coingecko.com/en/coins/curve-dao-token"
+    },
+    {
+      "text": "Curve DEX on DeFiLlama",
+      "url": "https://defillama.com/protocol/curve-dex"
+    }
+  ],
+  "sameAs": [
+    "https://x.com/CurveFinance",
+    "https://github.com/curvefi",
+    "https://www.coingecko.com/en/coins/curve-dao-token",
+    "https://defillama.com/protocol/curve-dex"
+  ]
+}
