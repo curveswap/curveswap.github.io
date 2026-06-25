@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://curveswap.github.io/sitemap.xml
